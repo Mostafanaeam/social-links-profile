@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+body{
+    background-color: hsl(0, 0%, 8%);
+    height: 600px;
+}
+.card{
+    position: relative;
+    top: 3%;
+    margin: 10px auto;
+    margin-bottom: 20px;
+    width: 50%;
+    height: 80%;
+    background-color: hsl(0, 0%, 12%);
+    padding: 10px;
+    border-radius: 5px;
+}
+.card .image{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+.card .image img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.card .names{
+    text-align: center;
+}
+.card .names h5{
+    color: hsl(75, 94%, 57%);
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: larger;
+}
+.card .names p{
+    color: #ffffff82;
+}
+a{
+    text-decoration: none;
+}
+a span{
+    width: 75%;
+    height: 50px;
+    border-radius: 8px;
+    background-color: hsl(0, 0%, 20%);
+    text-align: center;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 9px;
+}
+.card a span:hover{
+    color: hsl(0, 0%, 12%);
+    background-color: hsl(75, 94%, 57%);
+}
+.attribution{
+    /* background-color:hsl(0, 0%, 20%); */
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    bottom:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+}
